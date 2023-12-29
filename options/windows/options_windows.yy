@@ -7,7 +7,7 @@
   "option_windows_company_info": "PowerFactory",
   "option_windows_copy_exe_to_dest": false,
   "option_windows_copyright_info": "",
-  "option_windows_description_info": "Very Simple Timer",
+  "option_windows_description_info": "A Very Simple Timer",
   "option_windows_disable_sandbox": false,
   "option_windows_display_cursor": true,
   "option_windows_display_name": "Simple Timer",

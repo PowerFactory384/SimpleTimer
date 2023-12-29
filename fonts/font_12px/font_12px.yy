@@ -119,8 +119,8 @@
   "lineHeight": 19,
   "maintainGms1Font": false,
   "parent": {
-    "name": "글꼴",
-    "path": "folders/글꼴.yy",
+    "name": "Fonts",
+    "path": "folders/Fonts.yy",
   },
   "pointRounding": 0,
   "ranges": [

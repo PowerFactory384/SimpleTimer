@@ -3,8 +3,12 @@
 
 delta_step();
 
-if(!global.gui_enabled && global.time_go == true && global.timer > 0) {
-	global.timer -= d(1);
+if(!global.gui_enabled && global.time_go == true) {
+	if(!global.reverse && global.timer > 0) {
+		global.timer -= d(1);
+	} else if (global.reverse && global.timer < 359998999) {
+		global.timer += d(1);
+	}
 }
 
 adj_time = ceil(global.timer/1000);

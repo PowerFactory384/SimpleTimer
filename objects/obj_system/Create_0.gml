@@ -11,6 +11,10 @@ global.timer_text = "00:00:00";
 
 global.time_go = true;
 
+global.reverse = false;
+
+global.dark = true;
+
 global.gui_enabled = false;
 
 global.hour_is_ten = false;

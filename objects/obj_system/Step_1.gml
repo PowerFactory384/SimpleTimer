@@ -15,6 +15,10 @@ if(!global.gui_enabled) {
 			global.timer = 0;
 		} else if(point_in_circle(mouse_x, mouse_y, 100, 40, 20)) {
 			global.time_go = !global.time_go;
+		} else if(point_in_circle(mouse_x, mouse_y, 160, 40, 20)) {
+			global.reverse = !global.reverse;
+		} else if(point_in_circle(mouse_x, mouse_y, 700, 40, 20)) {
+			global.dark = !global.dark;
 		} else if(point_in_circle(mouse_x, mouse_y, 760, 40, 20)) {
 			global.gui_enabled = true;
 			global.adj_timer = global.timer;

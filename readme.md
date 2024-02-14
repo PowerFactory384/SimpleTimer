@@ -8,6 +8,8 @@
 - Edit Time UI
 - Stop / Start button
 - Reset button
+- Stopwatch button
+- Light / Dark Mode
 
 ## Used Library
 - [Scrrible](https://www.jujuadams.com/Scribble/#/latest/)

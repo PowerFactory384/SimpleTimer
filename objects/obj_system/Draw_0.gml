@@ -31,7 +31,7 @@ draw_circle_color(760, 40, 20, ui_c, ui_c, true);
 draw_sprite_ext(spr_init, 0, 41, 41, 0.65, 0.65, 0, ui_c, 1);
 draw_sprite_ext(spr_start, global.time_go, 101, 41, 0.65, 0.65, 0, ui_c, 1);
 draw_sprite_ext(spr_reverse, global.reverse, 161, 41, 0.8, 0.8, 0, ui_c, 1);
-draw_sprite_ext(spr_dark, !global.dark, 701, 41, 0.8, 0.8, 0, ui_c, 1);
+draw_sprite_ext(spr_dark, global.dark, 701, 41, 0.8, 0.8, 0, ui_c, 1);
 draw_sprite_ext(spr_edit, 0, 761, 41, 0.65, 0.65, 0, ui_c, 1);
 
 if(global.gui_enabled) {
